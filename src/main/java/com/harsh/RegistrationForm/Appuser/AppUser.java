@@ -17,12 +17,10 @@ import org.springframework.security.core.userdetails.UserDetails;
 
 import lombok.EqualsAndHashCode;
 import lombok.Getter;
-import lombok.NoArgsConstructor;
 import lombok.Setter;
 @Getter
 @Setter
 @EqualsAndHashCode
-@NoArgsConstructor
 @Entity
 public class AppUser implements UserDetails{
 	

@@ -12,9 +12,6 @@ import javax.persistence.ManyToOne;
 import javax.persistence.SequenceGenerator;
 
 import com.harsh.RegistrationForm.Appuser.AppUser;
-
-import lombok.NoArgsConstructor;
-@NoArgsConstructor
 @Entity
 public class ConfirmationToken {
 	

@@ -12,13 +12,11 @@ import lombok.AllArgsConstructor;
 
 @RestController
 @RequestMapping(path="api/v1/registration")
-@AllArgsConstructor
 public class RegistrationController {
 	
 	private RegistrationService registrationservice;
 	@Autowired
 	public RegistrationController(RegistrationService registrationservice) {
-		super();
 		this.registrationservice = registrationservice;
 	}
 
